@@ -1,5 +1,5 @@
-FROM clojure:tools-deps-1.11.1.1237-jammy
-ARG datomic_version=1.0.6726
+FROM clojure:tools-deps-1.11.1.1429
+ARG datomic_version=1.0.7075
 
 ENV DATOMIC_VERSION $datomic_version
 ENV DATOMIC_HOME /opt/datomic-pro-$datomic_version
